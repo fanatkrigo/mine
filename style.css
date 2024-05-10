@@ -1,0 +1,102 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.logo_minecraft {
+    opacity: 0.5;
+}
+.welcome {
+    background-color: black;
+}
+.about_text {
+    max-width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40%;
+}
+
+.buttom {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.about_1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: Roboto;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.wrapper_1 {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.heading_about {
+    margin-left: 20px;
+    max-width: 500px;
+    color: white;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+.forma {
+    border: 5px dashed red;
+    max-width: 310px;
+    border-radius: 10px;
+}
+button {
+    padding: 9px;
+    color: white;
+    font-size: 14px;
+    background-color: deepskyblue;
+    border: 1px solid black;
+}
+
+.form_inp {
+    background-color: #e6e6e6;
+    padding: 10px;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.strelka {
+    font-size: 50px;
+    color: white;
+    padding-top: 45%;
+    padding-bottom: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.description {
+    max-width: 350px;
+    margin-top: 70px;
+    margin-left: 100px;
+    border: 2px solid;
+    padding: 30px;
+}
+
+.knopka_2 {
+    color: white;
+    background-color: red;
+    padding:  20px;
+    border-radius: 12px;
+    border: 0;
+    font-size: 22px;
+}
